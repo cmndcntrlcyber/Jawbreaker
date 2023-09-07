@@ -1,0 +1,41 @@
+What are these things
+ valgrind
+ massif
+ linker
+ Pointed Brackets
+ Robin Hood Bucket
+ "If an inssertion collides with an existing element, and that element's "probe distance" (how far away the element is from its ideal location) is higher than how far we've already robed, swap the elements,"
+ "Robin Hood Hashing leads to a new search algorithm which requires less than 2.6 probes on average to perform a successful search even when the table is nearly full. Unsuccessful searches require only 0(ln n) probes."
+
+Things to read
+ An introduction to Parallel Algorithms
+ What every programmer should know about memory
+ The C11 & C++11 concurrency model
+ LLVM Atomic Instructions and Concurrency Guide
+ Cache Speculation Side=Channels
+ http:/en.cppreference.com
+ Valgrind User Manual
+ Compiler Explorer: https://rust.godbolt.org
+ Amdahl's and Gustafson's Laws
+
+Important Libraries
+ Hashmap standard library
+ Associative Array Library for Rust
+implemented with linear probing Robin Hood Bucket
+ HashMap::insert
+ HashMap::reserve
+ HashMap::resize
+ HashMap::insert_hashed_ordered
+ RawTable owns its data via
+ RawTable::raw_bucket_at
+ Naive_hashmap
+ naive_hashmap::insert
+ naive_hashmap::lookup
+ Add the two code snippets naive_hasmap/src/lib.rs
+ Key difference between HashMap & naive_hashmap is the use of Vec w/o Option wrapper
+ Not implementing delete operaiton, no eed for Option
+ Relying solely on Vec::remove
+ HashMap paramaterized on RandomState, the hasher is swappable via HashMap::with_hasher
+ QuickCheck
+
+
