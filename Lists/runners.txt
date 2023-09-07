@@ -1,0 +1,13 @@
+// remove jawbreaker layer
+AES-decrypt-cypher 
+
+// get ready for the goods
+send-decrypt-order 
+
+// For Each service that accesses the same folder, run SharpImpersonate
+send-impersonation 
+
+store-find-access //
+
+
+send-spread-acces // 
