@@ -7,3 +7,9 @@ Jawbreaker is serverless C2 & payload delivery system for Red Teams and APT Emul
 ## Getting Set up
 ## Using the framework
 ## Practical Use Cases
+## Microservices
+
+## Lists
+
+## Paystrings
+Base64 encdoded payload strings to be called by the `Delivery` Microservice. 
